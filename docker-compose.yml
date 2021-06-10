@@ -1,0 +1,33 @@
+version: "3"
+services:
+    db:
+        image: mysql:5.7
+        container_name: id13992976_pi
+        environment:
+            MYSQL_DATABASE: id13992976_pi
+            MYSQL_USER: root
+        ports: 
+            - "3307:3306"
+        networks:
+            - rede
+    
+    php:
+        build:
+            dockerfile: php7-dockerfile
+            context: .
+        image: tppessoa/php7-dockerfile
+        depends_on:  
+            - db
+        volumes: 
+            - ./public_html/:/var/www/html
+        ports:
+            - 8081:80
+        links: 
+            - db
+        stdin_open: true
+        tty: true
+        networks:
+            - rede    
+        
+networks:
+    rede:
