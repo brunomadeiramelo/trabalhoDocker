@@ -65,7 +65,7 @@ include("header.php");
 					<h1>Ação Solidária!</h1>
 					<p>O projeto tem como objetivo auxiliar neste momento de dificuldade relacionado a pandemia. Nele
 						será possível criar uma ponte digital, entre doadores e os necessitados ajudando e
-						possibilitando doações para instituições que cadastre na nossa plataforma no vale do aço.
+						possibilitando doações para instituições que se cadastrem na nossa plataforma no vale do aço.
 					</p>
 
 				</div>
