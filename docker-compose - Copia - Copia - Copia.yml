@@ -1,8 +1,8 @@
-version: "3"
+version: "3.9"
 services:
     db:
         image: mysql:5.7
-        container_name: db
+        container_name: id13992976_pi
         environment:
             MYSQL_DATABASE: id13992976_pi
             MYSQL_USER: root
@@ -21,7 +21,7 @@ services:
         volumes: 
             - ./public_html/:/var/www/html
         ports:
-            - 8091:80
+            - 8025:80
         links: 
             - db
         stdin_open: true
