@@ -24,7 +24,7 @@
         </div>
         <div class="row">
             <p> <strong> Atenção! Esse site se trata apenas de uma ferramenta de estudo,
-                    desenvolvido pelos alunos citados acima do curso sistemas de informação da faculdade UNILESTE 5º período. </strong></p>
+                    desenvolvido pelos alunos citados acima do curso sistemas de informação da faculdade UNILESTE 7º período. </strong></p>
         </div>
     </div>
     <!-- jQuery -->
