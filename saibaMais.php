@@ -17,7 +17,7 @@ include("header.php");
         <br>
         <h2><a id="o-que-e-covid"></a>O que é COVID-19</h2>
         <p>A COVID-19 é uma doença causada pelo coronavírus SARS-CoV-2, que apresenta um quadro clínico que varia de infecções assintomáticas a quadros respiratórios graves. De acordo com a Organização Mundial de Saúde (OMS), a maioria dos pacientes com COVID-19 (cerca de 80%) podem ser assintomáticos e cerca de 20% dos casos podem requerer atendimento hospitalar por apresentarem dificuldade respiratória e desses casos aproximadamente 5% podem necessitar de suporte para o tratamento de insuficiência respiratória (suporte ventilatório).</p>
-        <h2><a id="sintomas"></a>Sintomas</h2>
+        <h2><a id="sintomas"></a>Sintomas:</h2>
         <p>Os sintomas da COVID-19 podem variar de um simples resfriado até uma pneumonia severa. Sendo os sintomas mais comuns:</p>
         <ul>
             <li>Tosse;</li>
